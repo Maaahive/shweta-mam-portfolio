@@ -10,6 +10,7 @@ function App() {
   const handleNav = (section) => {
     setActiveSection(section);
     setSidebarOpen(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const publications = [
